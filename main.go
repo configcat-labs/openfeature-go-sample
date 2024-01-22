@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	configcat "github.com/configcat/go-sdk/v9"
+	configcat "github.com/configcat/go-sdk/v8"
 	"github.com/gin-gonic/gin"
 	provider "github.com/open-feature/go-sdk-contrib/providers/configcat/pkg"
 	"github.com/open-feature/go-sdk/openfeature"

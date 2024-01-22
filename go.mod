@@ -3,7 +3,7 @@ module github.com/configcat-labs/openfeature-go-sample
 go 1.21.4
 
 require (
-	github.com/configcat/go-sdk/v9 v9.0.3
+	github.com/configcat/go-sdk/v8 v8.0.1
 	github.com/gin-gonic/gin v1.9.1
 	github.com/open-feature/go-sdk v1.9.0
 	github.com/open-feature/go-sdk-contrib/providers/configcat v0.2.0
@@ -13,7 +13,6 @@ require (
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
-	github.com/configcat/go-sdk/v8 v8.0.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-logr/logr v1.3.0 // indirect
