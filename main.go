@@ -24,13 +24,17 @@ var courses = []course{
 }
 
 func main() {
-
+	// Create the provider around ConfigCat client. Remember to replace "YOUR-SDK-KEY" with your ConfigCat SDK key
 	ccProvider := provider.NewProvider(configcat.NewClient("YOUR-SDK-KEY"))
+
+	// Enable the provider
 	openfeature.SetProvider(ccProvider)
+	// Create a new OpenFeature client
 	client := openfeature.NewClient("app")
 
 	router := gin.Default()
 	router.GET("/courses", func(c *gin.Context) {
+		// Fetch the value of the feature flag
 		getCoursesEnabled, _ := client.BooleanValue(
 			context.Background(), "get_courses_enabled", false, openfeature.EvaluationContext{},
 		)
