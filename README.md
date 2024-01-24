@@ -4,7 +4,7 @@
 
 This is a simple app that demonstrates how to use [ConfigCat](https://configcat.com) with [OpenFeature](https://openfeature.dev/) in Go. The app has a REST API with a single endpoint that returns a predefined list of courses. We can enable or disable the endpoint with a feature flag in ConfigCat.
 
-**NOTE:** This branch contains the complete code with OpenFeature integrated into the app. Switch to the `starter` branch to see the state of the app before OpenFeature was installed.
+**NOTE:** This branch contains the complete code with OpenFeature integrated into the app. Use `git checkout starter` to switch to the `starter` branch to see the state of the app before OpenFeature was installed.
 
 ## Build & Run
 
