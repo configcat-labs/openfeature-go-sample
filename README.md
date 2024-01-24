@@ -44,7 +44,7 @@ Useful links to technical resources.
 - [ConfigCat Go SDK Documentation](https://configcat.com/docs/sdk-reference/go) - learn more about ConfigCat's Go SDK
 - [ConfigCat Java provider for OpenFeature](https://github.com/open-feature/java-sdk-contrib/tree/main/providers/configcat) - check out ConfigCat's Java Provider
 - [ConfigCat JavaScript provider for OpenFeature](https://github.com/open-feature/js-sdk-contrib/tree/main/libs/providers/config-cat) - check out ConfigCat's JavaScript Provider
-- OpenFeature Ecosystem - see other OpenFeature providers and integrations
+- [OpenFeature website](https://openfeature.dev/) - learn more about OpenFeature
 
 
 [**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
