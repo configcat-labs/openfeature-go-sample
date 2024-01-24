@@ -21,10 +21,12 @@ var courses = []course{
 }
 
 func main() {
+	// Initialize the ConfigCat client. Don't forget to replace "YOUR-SDK-KEY" with your ConfigCat SDK key
 	client := configcat.NewClient("YOUR-SDK-KEY")
 
 	router := gin.Default()
 	router.GET("/courses", func(c *gin.Context) {
+		// fetch the value of the feature flag
 		getCoursesEnabled := client.GetBoolValue("get_courses_enabled", false, nil)
 
 		if getCoursesEnabled {
