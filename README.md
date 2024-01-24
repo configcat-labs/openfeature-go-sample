@@ -26,6 +26,7 @@ Follow these steps to run the project on your computer:
 `ccProvider := provider.NewProvider(configcat.NewClient("YOUR-SDK-KEY"))`
 - Run the app:
 `go run main.go`
+- Visit `http://localhost:8000/courses`
 - Toggle the feature flag in your ConfigCat dashboard to enable and disable the endpoint.
 
 ## Learn more
