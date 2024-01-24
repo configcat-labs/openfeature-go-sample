@@ -19,13 +19,21 @@ This is a simple app that demonstrates how to use [ConfigCat](https://configcat.
 ## Instructions for Running
 Follow these steps to run the project on your computer:
 - Open your terminal and clone this repository with this command:
+
 `git clone https://github.com/configcat-labs/openfeature-go-sample.git`
+
 - Navigate into the repository's folder:
+
 `cd openfeature-go-sample`
+
 - Open `main.go` and replace "YOUR-SDK-KEY" with your ConfigCat SDK key on this line:
+
 `ccProvider := provider.NewProvider(configcat.NewClient("YOUR-SDK-KEY"))`
+
 - Run the app:
+
 `go run main.go`
+
 - Visit `http://localhost:8000/courses`
 - Toggle the feature flag in your ConfigCat dashboard to enable and disable the endpoint.
 
